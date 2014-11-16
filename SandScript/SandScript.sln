@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandScript", "SandScript\SandScript.csproj", "{02AE7DE0-7B62-46D6-8FD1-9840F6A6FC6B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandScript.Web", "SandScript\SandScript.Web.csproj", "{02AE7DE0-7B62-46D6-8FD1-9840F6A6FC6B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandScript.Tests", "SandScript.Tests\SandScript.Tests.csproj", "{06ABB0EF-3DA7-44D3-8BA4-0CDDDE9DDBC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{1EC6BB79-AF87-46B8-B5F6-B9421FAFDB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandSctipt.Data", "SandSctipt.Data\SandSctipt.Data.csproj", "{C7FC56B0-49D5-420D-997A-708DEBCA7158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandSript.Data.Common", "SandSript.Common\SandSript.Data.Common.csproj", "{40096353-D179-47C1-9119-B34C7589175C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandScript.Data.Models", "SandScript.Models\SandScript.Data.Models.csproj", "{18321812-1FBB-415B-AA6E-DB2F220ED7D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,8 +29,25 @@ Global
 		{06ABB0EF-3DA7-44D3-8BA4-0CDDDE9DDBC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06ABB0EF-3DA7-44D3-8BA4-0CDDDE9DDBC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06ABB0EF-3DA7-44D3-8BA4-0CDDDE9DDBC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FC56B0-49D5-420D-997A-708DEBCA7158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FC56B0-49D5-420D-997A-708DEBCA7158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FC56B0-49D5-420D-997A-708DEBCA7158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FC56B0-49D5-420D-997A-708DEBCA7158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40096353-D179-47C1-9119-B34C7589175C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40096353-D179-47C1-9119-B34C7589175C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40096353-D179-47C1-9119-B34C7589175C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40096353-D179-47C1-9119-B34C7589175C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18321812-1FBB-415B-AA6E-DB2F220ED7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18321812-1FBB-415B-AA6E-DB2F220ED7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18321812-1FBB-415B-AA6E-DB2F220ED7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18321812-1FBB-415B-AA6E-DB2F220ED7D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7FC56B0-49D5-420D-997A-708DEBCA7158} = {1EC6BB79-AF87-46B8-B5F6-B9421FAFDB43}
+		{40096353-D179-47C1-9119-B34C7589175C} = {1EC6BB79-AF87-46B8-B5F6-B9421FAFDB43}
+		{18321812-1FBB-415B-AA6E-DB2F220ED7D6} = {1EC6BB79-AF87-46B8-B5F6-B9421FAFDB43}
 	EndGlobalSection
 EndGlobal

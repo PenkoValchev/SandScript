@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(SandScript.Startup))]
-namespace SandScript
+[assembly: OwinStartupAttribute(typeof(SandScript.Web.Startup))]
+namespace SandScript.Web
 {
     public partial class Startup
     {
