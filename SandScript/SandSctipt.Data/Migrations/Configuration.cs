@@ -57,7 +57,7 @@ namespace SandSctipt.Data.Migrations
             }
             var adminUser = new User
             {
-                Email = "admin@mysite.com",
+                Email = "admin@sandscript.com",
                 UserName = "Administrator"
             };
 
