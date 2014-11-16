@@ -111,3 +111,4 @@ C:\UserFiles\SandScript\SandScript\SandScript.Tests\bin\Debug\Ninject.Web.Common
 C:\UserFiles\SandScript\SandScript\SandScript.Tests\bin\Debug\Ninject.xml
 C:\UserFiles\SandScript\SandScript\SandScript.Tests\bin\Debug\SandSript.Common.dll
 C:\UserFiles\SandScript\SandScript\SandScript.Tests\bin\Debug\SandSript.Common.pdb
+C:\UserFiles\SandScript\SandScript\SandScript.Tests\bin\Debug\Kendo.Mvc.dll
